@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: var(--font-colour);
+    font-size: 34px;
+}
+
+.col-sm-2 {
+    width: 300px;
+    height: 300px;
+}
+
+.home-block {
+    margin: 0 auto;
+    max-width: 1140px;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: var(--background-colour);
+    margin-bottom: 40px;
+}
+
+#n3, #n8 {
+    background-color: var(--white);
+    border: 3px solid var(--red-colour);
+}
+
+#n6 {
+    background-color: var(--red-colour);
+    border: 3px solid var(--white);
+}

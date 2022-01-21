@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-colour);
+    height: 44px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.mail {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
