@@ -16,6 +16,10 @@ nav {
     .navbar-light .navbar-nav .active > .nav-link {
         color: var(--red-colour);
     }
+
+    .nav-link .active {
+        color: var(--red-colour);
+    }
     
     .navbar-collapse {
         z-index: 1;
