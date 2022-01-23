@@ -18,14 +18,19 @@ h1 {
     padding: 2rem;
     background-color: var(--background-colour);
     margin-bottom: 40px;
-}
 
-#n3, #n8 {
-    background-color: var(--white);
-    border: 3px solid var(--red-colour);
-}
+    &.three {
+        background-color: var(--red-colour);
+        border: 3px solid var(--white);   
+    }
 
-#n6 {
-    background-color: var(--red-colour);
-    border: 3px solid var(--white);
+    &.six {
+        background-color: var(--red-colour);
+        border: 3px solid var(--white);   
+    }
+
+    &.eight{
+        background-color: var(--white);
+        border: 3px solid var(--red-colour);
+    }
 }

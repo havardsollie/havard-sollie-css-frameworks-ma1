@@ -40,30 +40,30 @@ footer {
           flex: 1 0 auto;
 }
 
-.navbar-brand {
+nav .navbar-brand {
   font-size: 36px;
   font-family: "Open Sans";
   margin-left: 70px;
 }
 
-.navbar {
+nav .navbar {
   background-color: var(--background-colour) !important;
 }
 
-.navbar-light .navbar-nav .nav-link {
+nav .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
 }
 
-.navbar-light .navbar-nav .active > .nav-link {
+nav .navbar-light .navbar-nav .active > .nav-link {
   color: var(--red-colour);
 }
 
-.navbar-collapse {
+nav .navbar-collapse {
   z-index: 1;
 }
 
 @media (max-width: 600px) {
-  .navbar-brand {
+  nav .navbar-brand {
     margin-left: 1px;
   }
 }
@@ -100,13 +100,18 @@ h1 {
   margin-bottom: 40px;
 }
 
-#n3, #n8 {
-  background-color: var(--white);
-  border: 3px solid var(--red-colour);
-}
-
-#n6 {
+.home-block.three {
   background-color: var(--red-colour);
   border: 3px solid var(--white);
+}
+
+.home-block.six {
+  background-color: var(--red-colour);
+  border: 3px solid var(--white);
+}
+
+.home-block.eight {
+  background-color: var(--white);
+  border: 3px solid var(--red-colour);
 }
 /*# sourceMappingURL=style.css.map */
